@@ -1,0 +1,29 @@
+grid_COPERNICUS:
+  name: "Copernicus SEA Grid"
+  file_path: GRIDS/grid_COPERNICUS_SEA.nc
+  file_type: netcdf
+  data_type: grid
+  model: GLORYS
+
+grid_VQS:
+  name: "Standard SEA312 Grid"
+  file_path: GRIDS/grid_SEA_312_standard.nc
+  file_type: netcdf
+  data_type: grid
+  model: SYMPHONIE
+  cleaning: sea312
+  cleaning_kwargs:
+    configuration: SEA_312
+    coordinates: standard
+
+
+grid_VQSF:
+  name: "Improved SEA312 Grid"
+  file_path: GRIDS/grid_SEA_312_vqsplus.nc
+  file_type: netcdf
+  data_type: grid
+  model: SYMPHONIE
+  cleaning: sea312
+  cleaning_kwargs:
+    configuration: SEA_312
+    coordinates: vqsplus

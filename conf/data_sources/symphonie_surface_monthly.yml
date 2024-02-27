@@ -1,0 +1,61 @@
+SEA_312_T_H1V1_V+_Q2_surface_monthly:
+  name: SEA_312_T_H1V1_V+_Q2
+  file_path: /home/garinet/data/01_raw/MODEL/SYMPHONIE/SEA_312_ndh1v1_vqsfile_quikest2/monthly_surface_values.nc
+  file_type: netcdf
+  data_type: model
+  model: SYMPHONIE
+  h_param: 1.0
+  v_param: 1.0
+  tides: false
+  vqsplus: true
+  cleaning: sea312surface
+  cleaning_kwargs:
+    configuration: SEA_312
+    coordinates: vqsplus
+
+SEA_312_T_H0V0_V_Q2_surface_monthly:
+  name: SEA_312_T_H0V0_V_Q2
+  file_path: /home/garinet/data/01_raw/MODEL/SYMPHONIE/SEA_312_ndrat0.0/monthly_surface_values.nc
+  file_type: netcdf
+  data_type: model
+  model: SYMPHONIE
+  h_param: 0.0
+  v_param: 0.0
+  tides: false
+  vqsplus: true
+  cleaning: sea312surface
+  cleaning_kwargs:
+    configuration: SEA_312
+    coordinates: vqsplus
+
+SEA_312_NT_H1V1_V_Q2_surface_monthly:
+  name: SEA_312_NT_H1V1_V_Q2
+  file_path: /home/garinet/data/01_raw/MODEL/SYMPHONIE/SEA_312_NTNW/monthly_surface_values.nc
+  file_type: netcdf
+  data_type: model
+  model: SYMPHONIE
+  h_param: 1.0
+  v_param: 1.0
+  tides: true
+  vqsplus: true
+  cleaning: sea312surface
+  cleaning_kwargs:
+    configuration: SEA_312
+    coordinates: vqsplus
+
+SEA_312_NT_H0V0_V_Q2_surface_monthly:
+  name: SEA_312_NT_H0V0_V_Q2
+  file_path: /home/garinet/data/01_raw/MODEL/SYMPHONIE/SEA_312_rat0_NT/monthly_surface_values.nc
+  file_type: netcdf
+  data_type: model
+  model: SYMPHONIE
+  h_param: 0.0
+  v_param: 0.0
+  tides: true
+  vqsplus: true
+  cleaning: sea312surface
+  cleaning_kwargs:
+    configuration: SEA_312
+    coordinates: vqsplus
+
+

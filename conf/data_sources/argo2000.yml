@@ -1,0 +1,29 @@
+ARGO_profiles_2000:
+  name: ARGO
+  file_path: ARGO/ALL_ARGO_0_2000.nc
+  file_type: netcdf
+  data_type: argo
+
+NT1_profiles_2000:
+  name: NT1
+  file_path: ARGO/ALL_NT1_0_2000.nc
+  file_type: netcdf
+  data_type: argo
+
+NT0_profiles_2000:
+  name: NT0
+  file_path: ARGO/ALL_NT0_0_2000.nc
+  file_type: netcdf
+  data_type: argo
+
+T0_profiles_2000:
+  name: T0
+  file_path: ARGO/ALL_T0_0_2000.nc
+  file_type: netcdf
+  data_type: argo
+
+T1_profiles_2000:
+  name: T1
+  file_path: ARGO/ALL_T1_0_2000.nc
+  file_type: netcdf
+  data_type: argo

@@ -1,0 +1,22 @@
+OSTIA:
+  name: OSTIA
+  file_path: SATELLITE/OSTIA/SEA/day
+  file_type: mfd
+  data_type: satellite
+  loading_kwargs:
+    combine: nested
+    concat_dim: time
+    parallel: True
+    chunks:
+      time: 50
+      lon: 122
+      lat: 102
+  cleaning: ostia
+
+OSTIA_monthly:
+  name: OSTIA
+  # file_path: SATELLITE/OSTIA/SEA/monthly/OSTIA_SEA_200812_201902.nc
+  file_path: SATELLITE/OSTIA/SEA/monthly/METOFFICE-GLO-SST-L4-NRT-OBS-SST-MON-V2_1670774675431.nc
+  file_type: netcdf
+  data_type: satellite
+  cleaning: ostia

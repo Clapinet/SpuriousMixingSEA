@@ -1,0 +1,9 @@
+ARGO_features:
+  name: ARGO_features
+  file_path: 02_intermediate/ARGO/argo_features.csv
+  file_type: csv
+  data_type: argo
+  loading_kwargs:
+#    sep: "\t"
+    index_col: file
+

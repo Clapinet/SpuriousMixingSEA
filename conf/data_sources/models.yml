@@ -1,0 +1,16 @@
+GLORYS:
+  name: GLORYSV12V1
+#  file_path: /tmpdir/garinet/data/01_raw/MODEL/NEMO/GLORYS
+  file_path: /tmpdir/p20055hm/FORCAGES/COPERNICUS/SEA
+  file_type: mfd
+  data_type: model
+  model: GLORYS
+  loading_kwargs:
+    combine: nested
+    concat_dim: time
+    parallel: true
+    chunks:
+      time: 50
+      longitude: 79
+      latitude: 61
+  cleaning: glorys
